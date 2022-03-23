@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: grid;
+  justify-content: space-between;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
@@ -22,6 +23,7 @@ export const Div1 = styled.div`
   display: flex;
   flex-direction: row;
   align-content: center;
+  align-self: start;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
@@ -30,6 +32,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  align-items: baseline;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -121,4 +124,15 @@ border-radius: 50px;
     cursor: pointer;
     
   }
+`
+
+export const LogoSpan = styled.span`
+  font-size: 3rem;
+`;
+
+export const LogoLink = styled.a`
+  display: 'flex';
+  alignItems: "center";
+  color: "white";
+  margin-bottom: '20px';
 `
