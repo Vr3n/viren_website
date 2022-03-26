@@ -116,7 +116,7 @@ export const SectionSubText = styled.p`
     line-height: 22px;
   }
 `
-export const SecondaryBtn = styled.button`
+export const SecondaryBtn = styled.a`
   color: #FFF;
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.33);
@@ -192,7 +192,7 @@ export const ButtonBack = styled.div`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
+    width: 70%;
     height: 32px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};

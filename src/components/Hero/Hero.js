@@ -1,8 +1,13 @@
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = () => (
   <Section row nopadding>
@@ -13,7 +18,9 @@ const Hero = () => (
       <SectionText>
         Learning by building projects, and making awesome apps.
       </SectionText>
-      <Button onClick={() => { console.log('clicked!') }}>Lean More</Button>
+      <Link href="#about">
+        <Button >Lean More</Button>
+      </Link>
     </LeftSection>
   </Section>
 );
