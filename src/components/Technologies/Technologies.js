@@ -37,7 +37,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>React</ListTitle>
           <ListParagraph>
-            Experience of 2 years.
+            Experience of 3 years.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -46,7 +46,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Python</ListTitle>
           <ListParagraph>
-            Experience of 5 years.
+            Experience of 4 years.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -55,7 +55,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Javascript</ListTitle>
           <ListParagraph>
-            Experience of 5 years.
+            Experience of 4 years.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -64,7 +64,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Docker</ListTitle>
           <ListParagraph>
-            Experience of 2 years.
+            Experience of 1 years.
           </ListParagraph>
         </ListContainer>
       </ListItem>
